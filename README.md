@@ -3,6 +3,19 @@
 ## プロジェクト作成
 
 ```
+nxmc2-csx-example
+├── .vscode
+│   └── launch.json
+├── omnisharp.json
+├── nxmc2-csx-example
+│   ├── NxInterface.dll -> ...
+│   ├── OpenCvSharp.Extensions.dll -> ...
+│   ├── OpenCvSharp.dll -> ...
+│   └── main.csx
+└── nxmc2-csx-example.nxc
+```
+
+```
 mkdir nxmc2-csx-example
 cd nxmc2-csx-example
 
@@ -39,19 +52,6 @@ using OpenCvSharp.Extensions;
 ```
 
 `ファイル > マクロの新規作成`で`..\nxmc2-csx-example.nxc`を作成する。同階層の`nxmc2-csx-example`ディレクトリ内がリソースとして読み込まれる。
-
-```
-nxmc2-csx-example
-├── .vscode
-│   └── launch.json
-├── omnisharp.json
-├── nxmc2-csx-example
-│   ├── NxInterface.dll -> ...
-│   ├── OpenCvSharp.Extensions.dll -> ...
-│   ├── OpenCvSharp.dll -> ...
-│   └── main.csx
-└── nxmc2-csx-example.nxc
-```
 
 ## メモ
 
