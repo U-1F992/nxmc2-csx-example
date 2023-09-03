@@ -27,7 +27,7 @@ mv .\.vscode\ ..\
 mv .\omnisharp.json ..\
 ```
 
-> [dotnet-script](https://github.com/dotnet-script/dotnet-script)は`C# Dev Kit`と競合する[^1]。VS Codeではワークスペースの`dotnet.server.useOmnisharp`を`true`にすることと、`C# Dev Kit`を無効化する対応が必要。
+> [dotnet-script](https://github.com/dotnet-script/dotnet-script)は`C# Dev Kit`と競合する[^1]。VS Codeではワークスペースの`dotnet.server.useOmnisharp`を`true`にする対応と、`C# Dev Kit`を無効化する対応が必要。
 
 [^1]: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp#how-to-use-omnisharp
 
