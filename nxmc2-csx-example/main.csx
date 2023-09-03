@@ -12,3 +12,6 @@ Console.WriteLine(args[0]);
 args[0] = "5";
 
 Console.WriteLine(Environment.Version);
+
+NxCommand.Press(NxCommand.Button.A);
+NxCommand.SendLineNotify("hoge");
